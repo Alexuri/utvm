@@ -1,3 +1,6 @@
+package edu.utvm.desarrolloacademico.serviciosestudiantiles;
+import java.util.ArrayList;
+
 public class Becas
 {
 
