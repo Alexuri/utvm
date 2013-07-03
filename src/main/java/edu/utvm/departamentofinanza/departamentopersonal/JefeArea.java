@@ -2,7 +2,7 @@ package edu.utvm.departamentofinanza.departamentopersonal;
 
 public class JefeArea extends Administrativo{
 	
-	public void representaArea(){
+	public void representarArea(){
 
 	}
 
@@ -14,7 +14,7 @@ public class JefeArea extends Administrativo{
 
 	}
 
-	public void reciveInformeArea(){
+	public void recibeInformeArea(){
 
 	}
 
