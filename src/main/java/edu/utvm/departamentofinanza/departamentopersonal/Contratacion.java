@@ -7,6 +7,7 @@ public class Contratacion{
 	public Contratacion(){
 		this.coordinacionDesarrolloacademico=new CoordinacionDesarrolloAcademico;
 		this.contrato = new Contrato;
+	}
 	
 	public void generarContrato(){
 		
