@@ -26,7 +26,7 @@ public class Rector extends Administrativo{
 
 	}
 
-	protected void llevarAcaboActosDeAdministracio(){
+	protected void llevarAcaboActosDeAdministracion(){
 
 	}
 
