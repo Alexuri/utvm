@@ -8,9 +8,7 @@ public class DepartamentoPersonal{
 	public JefeArea jefeDepartamentoPersonal;
 	
 	public DepartamentoPersonal(){
-		empleados = new ArrayList<Empleado>(){
-	
-		}
+		empleados = new ArrayList<Empleado>();
 		this.contratacion = new Contratacion;
 		this.capacitacion = new Capacitacion;
 		this.jefeDepartamentoPersonal = new JefeArea;
