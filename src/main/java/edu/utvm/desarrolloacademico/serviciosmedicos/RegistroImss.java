@@ -1,3 +1,5 @@
+package edu.utvm.desarrolloacademico.serviciosmedicos;
+
 publiic class RegistroImss
 {
   private Alumno alumno;
