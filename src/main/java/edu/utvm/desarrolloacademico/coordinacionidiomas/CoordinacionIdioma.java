@@ -1,4 +1,4 @@
-package main.java.edu.utvm.desarrolloacademico.coordinacionidiomas;
+package edu.utvm.desarrolloacademico.coordinacionidiomas;
 import java.util.ArrayList;
 
 import main.java.edu.utvm.departamentofinanza.departamentopersonal.*;
