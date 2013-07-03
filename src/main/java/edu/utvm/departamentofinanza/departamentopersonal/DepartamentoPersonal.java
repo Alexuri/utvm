@@ -9,9 +9,9 @@ public class DepartamentoPersonal{
 	
 	public DepartamentoPersonal(){
 		empleados = new ArrayList<Empleado>();
-		this.contratacion = new Contratacion;
-		this.capacitacion = new Capacitacion;
-		this.jefeDepartamentoPersonal = new JefeArea;
+		this.contratacion = new Contratacion();
+		this.capacitacion = new Capacitacion();
+		this.jefeDepartamentoPersonal = new JefeArea();
 	}
 	
 }
