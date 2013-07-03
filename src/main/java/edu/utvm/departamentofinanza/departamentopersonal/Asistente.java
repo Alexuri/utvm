@@ -10,7 +10,7 @@ public class Asistente extends Administrativo{
 	
 	}
 	
-	public void recivirDocumentos(){
+	public void recibirDocumentos(){
 	
 	}
 	
@@ -22,7 +22,7 @@ public class Asistente extends Administrativo{
 	
 	}
 	
-	private void recivirBoucher(){
+	private void recibirBoucher(){
 	
 	}
 	
