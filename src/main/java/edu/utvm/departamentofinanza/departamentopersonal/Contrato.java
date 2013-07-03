@@ -1,9 +1,9 @@
 package edu.utvm.departamentofinanza.departamentopersonal;
-import package edu.utvm.Persona;
+import edu.utvm.Persona;
 import java.util.*;
 
 public class Contrato{
-  public Persona persona;
+	public Persona persona;
 	private String clausulas;
 	private Date fechaInicio;
 	private Date fechaTermino;
