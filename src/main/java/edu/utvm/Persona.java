@@ -2,7 +2,7 @@ package edu.utvm;
 import java.util.*;
 
 public class Persona {
-  public String nombre;
+  	public String nombre;
 	public String apellidoPaterno;
 	public String apellidoMaterno;
 	public Date fechaNacimiento;
