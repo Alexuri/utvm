@@ -1,3 +1,6 @@
+package edu.utvm.desarrolloacademico.serviciosmedicos;
+import java.util.ArrayList;
+
 public class ServicioMedico
 {
   String salaEspera;
