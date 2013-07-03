@@ -22,7 +22,7 @@ public class Director extends Administrativo{
 	
 	}
 	
-	public void reciveCalificaciones(){
+	public void recibeCalificaciones(){
 	
 	}
 }
