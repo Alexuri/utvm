@@ -1,0 +1,13 @@
+package edu.utvm.departamentofinanza.departamentocontabilidad;
+
+public class ReciboDePago {
+  public Int folio;
+	public Date fecha; 
+	public Int matricula;
+	public String concepto;
+	public Float importe;
+
+	public reciboPago(Int folio, Date fecha, Int matricula, String concepto, Float importe){
+		returm;
+	}
+}
