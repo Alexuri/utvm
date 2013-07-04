@@ -1,6 +1,10 @@
 package edu.utvm;
 import java.util.*;
 
+/*
+ * Esto es un comentario
+ * */
+
 public class Persona {
   	private String nombre;
   	private String apellidoPaterno;
