@@ -1,7 +1,7 @@
 package edu.utvm.desarrolloacademico.coordinacionidiomas;
 import java.util.ArrayList;
 
-import main.java.edu.utvm.departamentofinanza.departamentopersonal.*;
+import edu.utvm.departamentofinanza.departamentopersonal.*;
 public class CoordinacionIdioma {
 
   private JefeArea jefe;
