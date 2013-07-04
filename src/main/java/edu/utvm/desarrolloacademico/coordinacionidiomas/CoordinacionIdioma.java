@@ -13,9 +13,4 @@ public class CoordinacionIdioma {
 		this.docente = new ArrayList<Docente>();
 		this.asistente= new ArrayList<Asistente>();
 	}
-
-	public String toString() {
-		// TODO Auto-generated method stub
-		return String.format("Coordinacion De Idiomas tiene %s, %s y %s",jefe,docente,asistente);
-	}
 }
