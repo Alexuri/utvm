@@ -2,15 +2,15 @@ package edu.utvm;
 import java.util.*;
 
 public class Persona {
-  	public String nombre;
-	public String apellidoPaterno;
-	public String apellidoMaterno;
-	public Date fechaNacimiento;
-	public String rfc;
-	public String curp;
-	public String direccion;
-	public String correo;
-	public String telefono;
+  	private String nombre;
+  	private String apellidoPaterno;
+  	private String apellidoMaterno;
+  	private Date fechaNacimiento;
+  	private String rfc;
+  	private String curp;
+  	private String direccion;
+	private String correo;
+	private String telefono;
 	
 	public Persona(String nom, String apPat, String apMat, Date fechaNac, String rfc, String curp, String direc, String correo, String tel){
 		this.nombre = nom;
