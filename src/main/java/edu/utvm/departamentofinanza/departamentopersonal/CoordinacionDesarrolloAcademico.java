@@ -2,9 +2,26 @@ package edu.utvm.departamentofinanza.departamentopersonal;
 
 public class CoordinacionDesarrolloAcademico{
  
-	public String personalAcademico;
-	public String carreras;
+	private String personalAcademico;
+	private String carreras;
 	
+		
+	public String getPersonalAcademico() {
+		return personalAcademico;
+	}
+
+	public void setPersonalAcademico(String personalAcademico) {
+		this.personalAcademico = personalAcademico;
+	}
+
+	public String getCarreras() {
+		return carreras;
+	}
+
+	public void setCarreras(String carreras) {
+		this.carreras = carreras;
+	}
+
 	public CoordinacionDesarrolloAcademico(){
 		
 	}

@@ -1,4 +1,4 @@
-package utvm.departamentofinanza.departamentopersonal;
+package edu.utvm.departamentofinanza.departamentopersonal;
 import java.util.Date;
 
 public class Director extends Administrativo{

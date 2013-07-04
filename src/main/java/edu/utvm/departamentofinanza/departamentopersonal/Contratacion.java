@@ -2,7 +2,7 @@ package edu.utvm.departamentofinanza.departamentopersonal;
 import edu.utvm.Persona;
 
 public class Contratacion{
-    public CoordinacionDesarrolloAcademico coordinacionDesarrolloAcademico;
+    private CoordinacionDesarrolloAcademico coordinacionDesarrolloAcademico;
 	private Contrato contrato;
 	
 	/*public Contratacion(){

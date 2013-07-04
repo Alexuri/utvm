@@ -7,6 +7,7 @@ public class Asistente extends Administrativo{
 		super(nom, apPat, apMat, fechaNac, rfc, curp, direc, correo, tel, claveEmpleado, cedulaProfesional);
 		
 	}/*Constructor de Asistente*/
+	
 
 	public void agendarActividad(){
 	
