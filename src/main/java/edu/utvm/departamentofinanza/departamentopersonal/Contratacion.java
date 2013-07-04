@@ -1,5 +1,5 @@
 package edu.utvm.departamentofinanza.departamentopersonal;
-import edu.utvm.Persona;
+import edu.utvm.general.Persona;
 
 public class Contratacion{
     private CoordinacionDesarrolloAcademico coordinacionDesarrolloAcademico;

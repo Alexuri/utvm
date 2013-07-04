@@ -1,5 +1,5 @@
 package edu.utvm.departamentofinanza.departamentopersonal;
-import edu.utvm.Persona;
+import edu.utvm.general.Persona;
 import java.util.*;
 
 public class Contrato{
