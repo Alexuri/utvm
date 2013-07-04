@@ -1,6 +1,6 @@
-pckage edu.utvm;
+package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
 import java.util.*;
-class Carpetas{
+public class Carpetas{
 	
 	public TipoDocumento tipodocumento;
 	public String nombre;

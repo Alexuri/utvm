@@ -1,13 +1,14 @@
 package edu.utvm.departamentofinanza.departamentopersonal;
+import edu.utvm.general.Persona;
 
 public class Contratacion{
-  public CoordinacionDesarrolloAcademico coordinacionDesarrolloacademico;
+    private CoordinacionDesarrolloAcademico coordinacionDesarrolloAcademico;
 	private Contrato contrato;
 	
-	public Contratacion(){
-		this.coordinacionDesarrolloacademico=new CoordinacionDesarrolloAcademico();
+	/*public Contratacion(){
+		this.coordinacionDesarrollocademico=new CoordinacionDesarrolloAcademico();
 		this.contrato = new Contrato(Persona per, String clau, Date fechaIni, Date fechaFin);
-	}
+	}*/
 	
 	public void generarContrato(){
 		

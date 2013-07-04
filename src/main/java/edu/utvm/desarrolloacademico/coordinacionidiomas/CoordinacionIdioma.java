@@ -1,7 +1,7 @@
 package edu.utvm.desarrolloacademico.coordinacionidiomas;
 import java.util.ArrayList;
 
-import main.java.edu.utvm.departamentofinanza.departamentopersonal.*;
+import edu.utvm.departamentofinanza.departamentopersonal.*;
 public class CoordinacionIdioma {
 
   private JefeArea jefe;
@@ -12,10 +12,5 @@ public class CoordinacionIdioma {
 		this.jefe = new JefeArea();
 		this.docente = new ArrayList<Docente>();
 		this.asistente= new ArrayList<Asistente>();
-	}
-
-	public String toString() {
-		// TODO Auto-generated method stub
-		return String.format("Coordinacion De Idiomas tiene %s, %s y %s",jefe,docente,asistente);
 	}
 }
