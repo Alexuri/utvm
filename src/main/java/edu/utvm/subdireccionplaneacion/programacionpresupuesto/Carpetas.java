@@ -1,4 +1,4 @@
-pckage edu.utvm;
+package edu.utvm;
 import java.util.*;
 class Carpetas{
 	
