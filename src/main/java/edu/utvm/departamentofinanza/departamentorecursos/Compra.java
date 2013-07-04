@@ -1,4 +1,4 @@
-package prueba;
+package edu.utvm.departamentofinanza.departamentorecursos;
 
 public class Compra {
 	private int numCompra;
