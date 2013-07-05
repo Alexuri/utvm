@@ -1,5 +1,5 @@
 package edu.utvm.departamentofinanza.departamentocontabilidad;
-import package edu.utvm.departamentofinanza.departamentopersonal.*;
+import  edu.utvm.departamentofinanza.departamentopersonal.*;
 
 public class DepartamentoContabilidad{
 	
@@ -9,13 +9,13 @@ public class DepartamentoContabilidad{
 	
 	public Caja caja;
 
-	public DepartamentoContabilidad(){
+	public DepartamentoContabilidad(JefeArea jefeArea,Asistente asistente,Caja caja){
 		this.caja = caja();
 		this.asistente = asistente();
 		this.jefeArea = jefeArea();
 	}
 	
-	public void realizaControlPago(){
+	public void RealizaControlPago(){
 	
 	}
 }
