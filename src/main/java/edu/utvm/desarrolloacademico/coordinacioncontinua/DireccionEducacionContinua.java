@@ -1,20 +1,27 @@
-package edu.utvm;
+package edu.utvm.desarrolloacademico.coordinacioncontinua;
+import edu.utvm.desarrolloacademico.coordinacioncontinua.*;
+
 public class DireccionEducacionContinua{
 	private String titular;
 	private String telefono;
 	private String ubicacion;
 	private String horario;
-	private String extension,
+	private String extension;
 	private String email;
 
 	private Cursos cursos;
 	private Formatos formato;
+	
+	
+	
 
-	public DireccionEducacionContinua(Cursos cursos,Formatos formato){
-		this.cursos = new Cursos();
-		this.formato = new Formato();
+	public DireccionEducacionContinua(Cursos cursos, Formatos formato){
+		this.cursos = new Cursos (null, null, 0, 0, email);
+		this.formato = new Formatos("a", null, 01, "b");
+		//this.formato = new formato (email, null, 0, email);
 	}
-	public void detectarNecesidad(){
+	
+	public void detectarNecesidades(){
 	}
 	public void registrarParticipante(){
 	}
@@ -30,8 +37,5 @@ public class DireccionEducacionContinua{
 	}
 	public void evaluarFacilitador(){
 	}
-	public DireccionEducacionContinua(){
-		this.cursos = new Cursos();
-		this.formato = new Formato();
-	}
+		
 }

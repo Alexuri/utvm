@@ -1,8 +1,6 @@
 package edu.utvm.desarrolloacademico.coordinacioncontinua;
-
-import edu.utvm.general.Persona;
 import edu.utvm.departamentofinanza.departamentopersonal.Docente;
-
+import edu.utvm.general.Persona;
 
 
 public class Cursos{
