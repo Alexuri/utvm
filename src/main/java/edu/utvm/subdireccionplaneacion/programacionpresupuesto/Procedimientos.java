@@ -1,5 +1,5 @@
-package edu.utvm;
-class Procedimientos{
+package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
+public class Procedimientos{
 	
 	public String pasos;
 }
