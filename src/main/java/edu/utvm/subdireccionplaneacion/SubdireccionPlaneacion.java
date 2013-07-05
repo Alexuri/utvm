@@ -1,6 +1,6 @@
 package edu.utvm.subdireccionplaneacion;
-import import edu.utvm.departamentofinanza.deparmentopersonal.JefeArea;
-class SubdireccionPlaneacion{
+import edu.utvm.departamentofinanza.deparmentopersonal.JefeArea;
+public class SubdireccionPlaneacion{
 	public ProgramacionPresuspuesto programacionpresuspuesto;
 	public ServiciosEscolares serviciosescolares;
 	public PracticasEstadias practicasestadias;
