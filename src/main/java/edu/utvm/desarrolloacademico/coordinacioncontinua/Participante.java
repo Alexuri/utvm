@@ -1,7 +1,7 @@
 package edu.utvm.desarrolloacademico.coordinacioncontinua;
-import edu.utvm.general.Persona;
 
-public class Participante {
+
+public class Participante{
 
 	private String escolaridad;
 	private String tipoParticipante;
