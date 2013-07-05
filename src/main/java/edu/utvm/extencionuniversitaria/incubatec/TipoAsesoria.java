@@ -8,9 +8,5 @@ public class TipoAsesoria {
 	public String diseñografico;
 	public String aspectojuridico;
 	
-	
-	public String mercadotecnia;
-	public String mercadotecnia;
-	public String mercadotecnia;
 
 }
