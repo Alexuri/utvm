@@ -1,8 +1,6 @@
 package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
 import java.util.*;
 
-
-
 public class Carpetas{
 	
 	public TipoDocumento tipoDocumento;
