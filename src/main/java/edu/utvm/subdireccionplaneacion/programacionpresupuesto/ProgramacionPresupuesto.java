@@ -1,16 +1,20 @@
 package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
-import edu.utvm.departamentofinanza.deparmentopersonal.JefeArea;
+import  edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 import java.util.*;
+
 public class ProgramacionPresupuesto{
-  public JefeArea jefearea;
-	public Carpetas carpetas;
-	public List<Carpetas>carpetas;
-		Carpetas=new ArrayList<carpetas>();
-	public JefeArea{
-		jefearea x=new JefeArea();
-		x.Almacena();
-		system.out.printline(x);	
-	  
-	}
+	public JefeArea jefeDeArea;
+    public List<Carpetas>carpetas;
+    
+    public ProgramacionPresupuesto(){
+		carpetas=new ArrayList<Carpetas>();
+		
+    }
+		
+	public void JefeArea(){
+		JefeArea x = new JefeArea();
+		x.realizaActividades();
+		System.out.println(x);	
+    }
 	
 }
