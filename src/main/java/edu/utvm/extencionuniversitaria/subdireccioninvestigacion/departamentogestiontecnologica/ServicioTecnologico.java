@@ -13,11 +13,14 @@ public class ServicioTecnologico {
 			public List <Carrera> Carrera;
 			
 			
-			public ServicioTecnologico(){
-				ArrayList carrera =new ArrayList ();
+			public ServicioTecnologico( int fol, Date fecha ){
+				this.folio = fol;
+				this.fecha= fecha;
+				
+				ArrayList carrera =new ArrayList();
 			}
 		
-			ServicioTecnologico servicioTecnologico= new ServicioTecnologico();
+			//ServicioTecnologico servicioTecnologico= new ServicioTecnologico();
 				
 				public void checarProyecto(){
 
