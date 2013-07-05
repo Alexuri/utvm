@@ -1,5 +1,5 @@
-package edu.utvm.DireccionEducacionContinua;
-import edu.utvm.departamentofinanza.departamentopersonal;
+package edu.utvm.desarrolloacademico.coordinacioncontinua;
+import edu.utvm.general.Persona;
 
 public class Participante {
 
