@@ -59,7 +59,7 @@ public class TipoServicioTecnologico {
  
 	public class ArrayList{
 	 
-		ServicioTecnologico servicioTecnologico = new ArrayList <serviciotecnologico>();
+		ArrayList servicioTecnologico = new ArrayList();
 
 	} 
 	 

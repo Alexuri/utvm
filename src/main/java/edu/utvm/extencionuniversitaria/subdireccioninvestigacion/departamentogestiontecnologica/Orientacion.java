@@ -1,18 +1,24 @@
 package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica;
 
-import edu.utvm.departamentofinanzas.departamentopersonal;
-import edu.utvm.desarrolloacademico.serviciosescolares;
+import edu.utvm.departamentofinanza.departamentopersonal.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
 
 public class Orientacion {
 
 	public Alumno alumno;
-	public Docente docente;
-		Orientacion= new orientacion();
-		public void resolverDudas();{
-		}
+	public Docente docente; {
+		
+			
+	}
+	
+		
+		public void resolverDudas(){
+
+}
 			public Orientacion(Alumno alumno,Docente docente){
-			this.Alumno=alumno;
-			this.Docente=docente;
+			
+				this.alumno=alumno;
+			this.docente=docente;
 			}
 		}
-}
+
