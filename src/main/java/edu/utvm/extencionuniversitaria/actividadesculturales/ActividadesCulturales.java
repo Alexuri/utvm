@@ -1,25 +1,22 @@
-package main.java.edu.utvm.ActividadesCulturales;
-import edu.utvm.desarrolloacademico.serviciosestudiantiles;
-import edu.utvm.departamentofinanza.departamentopersonal;
-import java.util.*;
+package edu.utvm.extencionuniversitaria.actividadesculturales;
 
-  public class Actividad{
-		public String tipoActividad;
-		public List <Clase> clase; //ArrayList
-	
-		public Actividad(){
-		clase =new ArrayList <Clase>();		
+import edu.utvm.departamentofinanzas.departamentopersonal.JefeArea;
+
+	public class ActividadesCulturales{
+		public JefeArea jefeDeArea;
+		public Actividad actividad;
+		
+		public ActividadesCulturales(){
+		Actividad act= new actividad();
+		
 		}
 
-			public Instructor instructor;
-			public FormatoRegistro formatoRegistro;
-			public alumno alumno;
-
-		public List <Alumno> alumno; //----->ArrayList
-
-		public Actividad(){
-		alumno =new ArrayList <Alumno>();		
+		public JefeArea{
+	  		jefearea x=new JefeArea();
+	  		x.Planea();
+	  		system.out.printline(x);
+	  
 		}
 
 
-}
+	}
