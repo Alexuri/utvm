@@ -1,4 +1,4 @@
-paickage edu.utvm;
+package edu.utvm;
 class TipoDocumento{
 	public int folio;
 	public String nombre;
