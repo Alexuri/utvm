@@ -1,7 +1,7 @@
-package edu.utvm;
-import edu.utvm.departamentofinanza.deparmentopersonal;
+package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
+import edu.utvm.departamentofinanza.deparmentopersonal.JefeArea;
 import java.util.*;
-class ProgramacionPresupuesto{
+public class ProgramacionPresupuesto{
   public JefeArea jefearea;
 	public Carpetas carpetas;
 	public List<Carpetas>carpetas;

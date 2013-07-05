@@ -1,13 +1,12 @@
 package edu.utvm.desarrolloacademico.serviciosestudiantiles;
 
-public class Requisitos
-{
+public class Requisito {
 
-  Bolean actaNacimiento;
+	Boolean actaNacimiento;
 	String curp;
 	Double promedio;
 	String situacionEconomica;
-	Bolean comprobanteDomicilio;
-	Bolean historialCalificaciones;
+	Boolean comprobanteDomicilio;
+	Boolean historialCalificaciones;
 
 }
