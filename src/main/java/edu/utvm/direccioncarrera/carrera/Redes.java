@@ -7,7 +7,7 @@ public class Redes (){
 
 		public Redes(){
 		
-			super.jefeArea = new JefeArea;
+			this.jefeArea = new JefeArea;
 		}
 		
 
