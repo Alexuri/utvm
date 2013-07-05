@@ -1,13 +1,11 @@
-package edu.utvm.desarrolloacademico.serviciosestudiantiles;
+ppackage edu.utvm.desarrolloacademico.serviciosestudiantiles;
 
-public class ServiciosEstudiantiles
-{
-  psicopedagogia psp;
-	becas becas;
-	
-	public serviciosEstudiantiles(psicopedagogia p, becas b)
-	{
-		this.psp = p;
-		this.becas = b;
+public class ServiciosEstudiantiles {
+	Psicopedagogia psp;
+	Becas becas;
+
+	public ServiciosEstudiantiles(Psicopedagogia psicopedagogia, Becas becas) {
+		this.psp = psicopedagogia;
+		this.becas = becas;
 	}
 }
