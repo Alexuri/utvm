@@ -1,5 +1,5 @@
 package edu.utvm.direccioncarrera;
-import edu.utvm.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 
 public class  Carrera(){
 
