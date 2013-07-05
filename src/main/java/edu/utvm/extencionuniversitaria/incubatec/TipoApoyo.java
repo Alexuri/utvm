@@ -7,6 +7,16 @@ public class TipoApoyo {
 	public String enlaces;
 	public String contactoempresa;
 	public String vinculacion;
+	
+	public TipoApoyo(){
+	}
+		public TipoApoyo(String tall, String lab, String enl, String conc, String vin){
+			this.talleres=tall;
+			this.laboratorios=lab;
+			this.enlaces=enl;
+			this.contactoempresa=conc;
+			this.vinculacion=vin;
+	}
 }
 
 

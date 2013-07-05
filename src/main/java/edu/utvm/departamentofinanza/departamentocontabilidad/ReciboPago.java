@@ -1,18 +1,22 @@
 package edu.utvm.departamentofinanza.departamentocontabilidad;
 
-public class Caja {
-        public ReciboPago reciboPago;
-	public Float dinero;
-	public String alumno; 
+public class ReciboPago {
+	public int folio;
+	public String fecha; 
+	public int matricula;
+	public String concepto;
+	public Float importe;
 
-	public Caja(ReciboPago reciboPago,Float dinero,String alumno) {
-		this.reciboPago = reciboPago;
-		this.dinero = dinero;
-		this.alumno = alumno;
-       	}
-		
-		
-		public void RecibeDinero(){
+	public ReciboPago(int folio,String fecha,int matricula,String concepto,Float importe )
+	{
+		this.folio= folio;
+		this.fecha= fecha;
+		this.matricula= matricula;
+		this.concepto= concepto;
+		this.importe= importe;
+	}
+        public void GenerarRecibo(){
 		
 	}
-}	
+
+}

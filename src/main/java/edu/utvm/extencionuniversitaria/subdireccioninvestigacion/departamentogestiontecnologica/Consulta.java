@@ -1,4 +1,5 @@
 package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica;
+
 import java.util.*;
 
 public class Consulta {
@@ -7,19 +8,20 @@ public class Consulta {
 	public String descripcion;
 	public Date fechaConsulta;
 
-		public void realizarInvestigacion(){
-		}
+	public void realizarInvestigacion() {
+	}
 
-			public void resolverDudas(){
-			}
+	public Consulta(String nomCons, String des, Date fec) {
+		this.nombreConsulta = nomCons;
+		this.descripcion = des;
+		this.fechaConsulta = fec;
 
-				public Consulta(){
-				Consulta consulta= new Consulta(); 
+	}
 
-				}
- 					
+	public void resolverDudas() {
+
+	}
+
 }
-
-
 	
 
