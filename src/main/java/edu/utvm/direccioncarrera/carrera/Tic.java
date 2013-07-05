@@ -1,5 +1,4 @@
 package edu.utvm.direccioncarrera;
-import edu.utvm.*;
 
 
 public class Tic(){
