@@ -3,13 +3,14 @@ import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
 public class BolsaTrabajo {
 	public JefeArea JefeArea;
-	public seguimientoEgresados;
+
 	public SeguimientoEgresados seguimientoEgresado;
 	public InstitucionVinculada institucionVinculada;
 
 	       public BolsaTrabajo(){
-	     SeguimientoEgresados  = new seguimientoEgresados();
-	     InstitucionVinculada = new institucionVinculada();
+	    	   
+	     seguimientoEgresado  = new SeguimientoEgresados();
+	     institucionVinculada = new InstitucionVinculada();
 	}
 	       public BolsaTrabajo (SeguimientoEgresados seguimientoEgresado,InstitucionVinculada institucionVinculada){
 	       
