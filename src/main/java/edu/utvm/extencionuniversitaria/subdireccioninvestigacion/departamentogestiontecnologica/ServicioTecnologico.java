@@ -1,6 +1,7 @@
 package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica;
 
 import java.util.*;
+import edu.utvm.direccioncarrera.*;
 
 public class ServicioTecnologico {
 
@@ -10,11 +11,13 @@ public class ServicioTecnologico {
 		public Date fecha;
 
 			public List <Carrera> Carrera;
+			
+			
 			public ServicioTecnologico(){
-			Carrera carrera =new ArrayList <carrera>();
+				ArrayList carrera =new ArrayList ();
 			}
 		
-			ServicioTecnologico servicioTecnologico= new servicioTecnologico();
+			ServicioTecnologico servicioTecnologico= new ServicioTecnologico();
 				
 				public void checarProyecto(){
 

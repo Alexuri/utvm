@@ -1,5 +1,5 @@
 package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica;
-import edu.utvm.departamentofinanza.departamentopersonal.JefeArea.java;
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
 public class DepartamentoGestionTecnologica {
 
@@ -10,6 +10,7 @@ public class DepartamentoGestionTecnologica {
 	public ServicioTecnologico servicioTecnologico;
 	public JefeArea jefearea;
 
+	
 		public void promoverConocimiento(){  
 		}
 }
