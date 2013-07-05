@@ -1,5 +1,5 @@
 package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.direccionfinanza.JefeArea;
+import edu.utvm.departamentofinanza.JefeArea;
 
 public class Redes (){
 
