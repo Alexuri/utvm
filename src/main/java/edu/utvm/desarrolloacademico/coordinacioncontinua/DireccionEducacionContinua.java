@@ -15,9 +15,10 @@ public class DireccionEducacionContinua{
 	
 	
 
-	public DireccionEducacionContinua(Cursos cursos,Formatos formato){
+	public DireccionEducacionContinua(Cursos cursos, Formatos formato){
 		this.cursos = new Cursos (null, null, 0, 0, email);
-		this.formato = new Formatos (email, null, 0, email);
+		this.formato = new Formatos("a", null, 01, "b");
+		//this.formato = new formato (email, null, 0, email);
 	}
 	
 	public void detectarNecesidades(){
