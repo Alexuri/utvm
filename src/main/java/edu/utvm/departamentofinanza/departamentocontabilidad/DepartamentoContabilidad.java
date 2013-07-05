@@ -15,7 +15,7 @@ public class DepartamentoContabilidad{
 		this.jefeArea = jefeArea();
 	}
 	
-	public void realizacontroldepago(){
+	public void realizaControlPago(){
 	
 	}
 }
