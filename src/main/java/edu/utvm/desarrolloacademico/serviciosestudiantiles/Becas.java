@@ -1,6 +1,8 @@
 package edu.utvm.desarrolloacademico.serviciosestudiantiles;
 import java.util.ArrayList;
 
+import edu.utvm.departamentofinanza.departamentopersonal.Psicologo;
+
 public class Becas
 {
 
@@ -12,7 +14,7 @@ double montoBeca;
 
 public ArrayList<Psicologo> psicologas;
   
-	public becas()
+	public Becas()
 	{
 		psicologas = new ArrayList<Psicologo>();
 	}
