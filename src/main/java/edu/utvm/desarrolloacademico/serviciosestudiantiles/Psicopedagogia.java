@@ -8,7 +8,7 @@ public class Psicopedagogia {
 	public ArrayList<Psicologo> psicologo;
 
 	public Psicopedagogia() {
-		psicologo = new ArrayList<Psicologo>();
+		this.psicologo = new ArrayList<Psicologo>();
 	}
 
 	public void tratamientoTipoBeca() {
