@@ -6,19 +6,18 @@ import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
 public class Orientacion {
 
 	public Alumno alumno;
-	public Docente docente; {
-		
-			
+	public Docente docente;
+	{
+
 	}
-	
-		
-		public void resolverDudas(){
 
+	public void resolverDudas() {
+
+	}
+
+	public Orientacion(Alumno alumno, Docente docente) {
+
+		this.alumno = alumno;
+		this.docente = docente;
+	}
 }
-			public Orientacion(Alumno alumno,Docente docente){
-			
-				this.alumno=alumno;
-			this.docente=docente;
-			}
-		}
-
