@@ -1,5 +1,5 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-import edu.utvm.general.Persona;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 
 public class CartaNoAdeudo{
 
