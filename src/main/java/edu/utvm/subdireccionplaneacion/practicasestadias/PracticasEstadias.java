@@ -1,5 +1,6 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
+import edu.utvm.departamentofinanza.departamentopersonal.Jefearea;
+import edu.utvm.subdireccionplaneacion.practicasestadias.*;
 
 public class PracticasEstadias{
 
