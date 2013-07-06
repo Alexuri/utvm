@@ -1,5 +1,5 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-
+import edu.utvm.subdireccionplaneacion.practicasestadias.Planeacion;
 
 public class VisitaIndustrial{
 
