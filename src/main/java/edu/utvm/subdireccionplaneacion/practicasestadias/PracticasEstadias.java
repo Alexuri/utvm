@@ -7,7 +7,7 @@ public class PracticasEstadias{
 	public VisitaIndustrial visitaIndustrial;
 	public JefeArea jefeArea;
 
-	public PracticasEstadias(ProcedimientoEstadia procedimientoEstadia,VisitaIndustrial visitaIndustrial,JefeArea jefeArea){
+	public PracticasEstadias(ProcesoEstadia procesoEstadia,VisitaIndustrial visitaIndustrial,JefeArea jefeArea){
 		ProcesoEstadia procesoEstadia = new ProcesoEstadia();
 		VisitaIndustrial visitaIndustrial = new VisitaIndustrial();
 		JefeArea jefeArea = new JefeArea();
