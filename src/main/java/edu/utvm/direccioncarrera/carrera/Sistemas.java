@@ -7,7 +7,7 @@ public class Sistemas(){
 
 		public Sistemas(){
 		
-			super.jefeArea = new JefeArea;
+			this.jefeArea = new JefeArea;
 		}
 		
 
