@@ -1,5 +1,5 @@
 package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+import edu.utvm.departamentofinanza.JefeArea;
 
 public class SoporteTecnico(){
   
@@ -7,7 +7,7 @@ public class SoporteTecnico(){
 
 		public SoporteTecnico(){
 		
-			super.jefeArea = new JefeArea;
+			this.jefeArea = new JefeArea;
 		}
 	}
 }
