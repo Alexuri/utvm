@@ -1,4 +1,4 @@
-pacakage edu.utvm.subdireccionplaneacion.practicasyestadias;
+package edu.utvm.subdireccionplaneacion.practicasestadias;
 
 
 public class VisitaIndustrial{
