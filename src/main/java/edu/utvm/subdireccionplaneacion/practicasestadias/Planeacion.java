@@ -5,8 +5,6 @@ public class Planeacion{
 
   public String folioPlaneacion;
 	public Carrera carrera;
-	public String grado;
-	public String grupo;
 	public String empresa;
 	public int asistentes;
 	public String tutorAsignado;
