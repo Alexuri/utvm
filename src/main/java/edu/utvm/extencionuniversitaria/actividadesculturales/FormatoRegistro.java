@@ -1,15 +1,15 @@
-package main.java.edu.utvm.ActividadesCulturales;
+package edu.utvm.extencionuniversitaria.actividadesculturales;
 
-import edu.utvm.extecionuniversitaria.departamentopersonal;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
   
 public class FormatoResgistro{
-		public Alumno alumno;
+	public Alumno alumno;
 
-		public Alumno(){
-	  		alumno x=new Alumno();
-	  		x.registra();
-	  		System.out.printline(x);
-		}
+	public FormatoRegistro(){
+		alumno x=new Alumno();
+	  	x.registra();
+	  	System.out.printline(x);
+	}
 }
 
 
