@@ -1,26 +1,24 @@
-package edu.utvm.extencionuniversitaria.PrensaDifusion;
+package edu.utvm.extencionuniversitaria.prensadifusion;
 
-import edu.utvm.departamentofinanzas.departamentopersonal.JefeArea;
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
-  public class PrensaDifucion{
+ public class PrensaDifucion{
 		
-		public JefeArea jefeArea;
-
-		public List <Diseño> diseño;
-		public PrensaDifusion (){
-		Diseño =new ArrayList <diseño>();
-		}
-
-		public Logistica logistica;
-		public MediosDifusion mediosDifusion;
-		public RedesSociales redesSociales;
-
-		public String Promocion;
-		public String ActividadInstituto;
-		
-			public void difundirInformacion(){
-			}
-
-			public void diseñar(){
-			}
+	public JefeArea jefeArea;
+	public Disenio disenio;
+	public Logistica logistica;
+	public MediosDifusion mediosDifusion;
+	public RedesSociales redesSociales;
+	public String Promocion;
+	public String ActividadInstituto;
+	
+	public PrensaDifusion(String prom, String actinst){
+		this.Promocion = prom;
+		this.ActividadInstituto;
 	}
+	
+	public void difundirInformacion(){
+	}
+	public void diseñar(){
+	}
+}
