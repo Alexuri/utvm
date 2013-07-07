@@ -1,6 +1,6 @@
-package main.java.edu.utvm.ActividadesCulturales;
-import edu.utvm.departamentofinanza.departamentoplaneacion.serviciosescolares.Alumno;
-import java.util.*;
+package edu.utvm.extencionuniversitaria.actividadesculturales;
+
+import java.util.ArrayList;
   
 	public class Clase{
 		public Date dia;
