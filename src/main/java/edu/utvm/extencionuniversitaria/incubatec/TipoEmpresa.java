@@ -2,7 +2,7 @@ package edu.utvm.extencionuniversitaria.incubatec;
 
 public class TipoEmpresa {
 		public String micro;
-		public String pequeña;
+		public String pequenia;
 		public String mediana;
 		public String grande;
 		
@@ -12,7 +12,7 @@ public class TipoEmpresa {
 			public TipoEmpresa (String mic, String peq, String med, String gran){
 				
 				this.micro = mic;
-				this.pequeña =  peq;
+				this.pequenia =  peq;
 				this.micro = med;
 				this.grande = gran;
 			}
