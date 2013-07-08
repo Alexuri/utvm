@@ -14,7 +14,7 @@ public class Caja {
 		this.alumno = alumno;
 	}
 	
-	public void reciboDinero(String){
+	public void reciboDinero(){
 		
 	}
 }
