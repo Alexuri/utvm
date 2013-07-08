@@ -8,7 +8,7 @@ public class Caja {
 	
 	public String alumno; 
 	
-	public Caja (RecibiPago reciboPago, Float dinero, String alumno){
+	public Caja (ReciboPago reciboPago, Float dinero, String alumno){
 		this.reciboPago = reciboPago;
 		this.dinero = dinero;
 		this.alumno = alumno;
