@@ -5,13 +5,14 @@ public class App{
   public static void main(String[] arg){
 		
   
-  Rectoria rectoria = null;
-  	rectoria=new Rectoria();
+  		Rectoria rectoria = null;
+  		rectoria=new Rectoria();
 		
 		DireccionCarrera direccioncarrera = null;
-		DireccionCarrera = direccioncarrera();
+		direccioncarrera = new DireccionCarrera();
 
-		SubdireccionPlaneacion=null;
-		SubdireccionPlaneacion = subdireccionplaneacion();
+		
+		SubdireccionPlaneacion subdireccionplaneacion= null;
+		subdireccionplaneacion = new SubdireccionPlaneacion();
 
 }
