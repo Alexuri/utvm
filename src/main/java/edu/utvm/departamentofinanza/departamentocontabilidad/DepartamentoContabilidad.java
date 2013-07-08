@@ -10,9 +10,9 @@ public class DepartamentoContabilidad{
 	public Caja caja;
 
 	public DepartamentoContabilidad(JefeArea jefeArea,Asistente asistente,Caja caja){
-		this.caja = caja(null,null,null);
-		this.asistente = asistente(null,null,null,null,null,null,null,null,null,null,null);
-		this.jefeArea = jefeArea(null,null,null,null,null,null,null,null,null,null,null);
+		this.caja = new Caja(null,null,null);
+		this.asistente =new Asistente(null,null,null,null,null,null,null,null,null,null,null);
+		this.jefeArea = new JefeArea(null,null,null,null,null,null,null,null,null,null,null);
 	}
 	
 	public void RealizaControlPago(){
