@@ -1,6 +1,5 @@
 package edu.utvm.extencionuniversitaria.bolsatrabajo;
 
-import java.util.*;
 
 public class SeguimientoEgresados {
 	public String egresados;
