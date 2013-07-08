@@ -1,14 +1,15 @@
 package edu.utvm.extencionuniversitaria.bolsatrabajo;
 
+import java.util.*;
+
 public class SeguimientoEgresados {
-	
-    public List <Egresados> egrasado;
-	public SeguimientoEgresados(){
-	Egresados =new ArrayList <Egresados>();
+	public String egresados;
+
+	public SeguimientoEgresados(String egres) {
+		this.egresados = egres;
 	}
-		public void contacta(){
-		}
 
-
+	public void contacta() {
+	}
 
 }
