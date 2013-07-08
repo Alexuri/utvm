@@ -1,8 +1,8 @@
 package edu.utvm.departamentofinanza.departamentomantenimiento;
-import edu.utvm.departamentofinanza.departamentopersonal.JefeDepartamento;
+import edu.utvm.departamentofinanza.departamentopersonal.*;
 
 public class DepartamentoMantenimiento{
-	public JefeDepartamento jefeDepartamento;
+	public JefeArea jefeArea;
 	public Asistente asistente;
 	public PersonalLimpieza personalLimpieza;
 	public PersonalSeguridad personalSeguridad;
