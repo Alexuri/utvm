@@ -8,8 +8,8 @@ public class DepartamentoMantenimiento{
 	public PersonalSeguridad personalSeguridad;
 	
 	public DepartamentoMantenimiento(JefeArea jefeArea, Asistente asistente, PersonalLimpieza personalLimpieza, PersonalSeguridad personalSeguridad){
-		this.jefeArea=new JefeArea();		
-		this.asistente=new Asistente();
+		this.jefeArea=new JefeArea(null,null,null,null,null,null,null,null,null,null,null);		
+		this.asistente=new Asistente(null,null,null,null,null,null,null,null,null,null,null);
 		this.personalLimpieza=new PersonalLimpieza();
 		this.personalSeguridad=new PersonalSeguridad();
 	}
