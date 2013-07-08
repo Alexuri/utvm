@@ -1,7 +1,7 @@
 package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica;
 
-import java.util.*;
-import edu.utvm.direccioncarrera.*;
+import java.util.*; 
+import edu.utvm.direccioncarrera.carrera.*;
 
 public class ServicioTecnologico {
 
