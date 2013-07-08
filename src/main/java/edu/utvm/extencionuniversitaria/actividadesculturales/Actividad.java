@@ -1,27 +1,21 @@
 package edu.utvm.extencionuniversitaria.actividadesculturales;
+
 import java.util.ArrayList;
+import java.util.List;
+
+import edu.utvm.departamentofinanza.departamentopersonal.Instructor;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 
   public class Actividad{
 	public String tipoActividad;
 	public FormatoRegistro formatoregistro;
 	
-	public List <Clase> clase; //ArrayList
-	
-	public void Actividad(){
-	clase =new ArrayList <Clase>();		
-	}
 
 	public Instructor instructor;
-	public FormatoRegistro formatoRegistro;
-	public alumno alumno;
-	this.formatoRegistro =new FormatoRegistro();
+	public Alumno alumno;
 	
-
-	public List <Alumno> alumno; //----->ArrayList
-
-		public Actividad(){
-		alumno =new ArrayList <Alumno>();		
-		}
-
-
+	public List<Clase>clases;
+	public Actividad(){
+		clases= new ArrayList <Clase>();		
+	}
 }
