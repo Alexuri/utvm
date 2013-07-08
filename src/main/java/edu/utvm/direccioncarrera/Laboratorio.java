@@ -1,16 +1,16 @@
 package edu.utvm.direccioncarrera;
 import edu.utvm.departamentofinanza.departamentopersonal.ResponsableLaboratorio;
 
-public class Laboratorio extends Carrera(){
+public class Laboratorio{
 
-  	public string nombre;
-	public string ubicacion;
-	public string equipos;
-	public string responsableLaboratorio;
+  	public String nombre;
+	public String ubicacion;
+	public String equipos;
+	public String responsableLaboratorio;
 	
 		public Laboratorio(){
 		
-			this.responsableLabopratorio = new ResponsableLaboratorio;
+			this.responsableLaboratorio = new ResponsableLaboratorio();
 		
 		}
 } 
