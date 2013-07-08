@@ -2,7 +2,7 @@ package edu.utvm.extencionuniversitaria.prensadifusion;
 
 import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
- public class PrensaDifucion{
+ public class PrensaDifusion{
 		
 	public JefeArea jefeArea;
 	public Disenio disenio;
@@ -14,11 +14,11 @@ import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 	
 	public PrensaDifusion(String prom, String actinst){
 		this.Promocion = prom;
-		this.ActividadInstituto;
+		this.ActividadInstituto= actinst;
 	}
 	
 	public void difundirInformacion(){
 	}
-	public void diseñar(){
+	public void diseniar(){
 	}
 }
