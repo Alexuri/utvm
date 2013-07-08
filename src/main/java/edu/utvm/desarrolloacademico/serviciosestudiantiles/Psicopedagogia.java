@@ -1,11 +1,11 @@
 package edu.utvm.desarrolloacademico.serviciosestudiantiles;
 
 import java.util.ArrayList;
-
+import java.util.List;
 import edu.utvm.departamentofinanza.departamentopersonal.Psicologo;
 
 public class Psicopedagogia {
-	public ArrayList<Psicologo> psicologo;
+	public List<Psicologo> psicologo;
 
 	public Psicopedagogia() {
 		this.psicologo = new ArrayList<Psicologo>();
