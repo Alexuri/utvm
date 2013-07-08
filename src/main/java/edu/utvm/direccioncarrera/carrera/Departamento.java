@@ -1,5 +1,4 @@
-package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+package edu.utvm.direccioncarrera.departamento
 
 
 public class Departamento(){

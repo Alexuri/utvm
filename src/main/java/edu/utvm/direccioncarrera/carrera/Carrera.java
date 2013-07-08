@@ -1,5 +1,8 @@
 package edu.utvm.direccioncarrera;
-import edu.utvm.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
+import edu.utvm.departamentofinanza.departamentopersonal.Asistente;
+import edu.utvm.departamentofinanza.departamentopersonal.Docente;
+
 
 public class  Carrera(){
 
@@ -11,13 +14,13 @@ public class  Carrera(){
 	public string NombreCarrera;
 	
 	public Alumno alumno;
-	public Secretaria secretaria;
+	public Asistente asistente;
 	public Docente docente;
 	public Laboratorio
 		
 		public Carrera (){
 			this.alumno = new Alumno;
-			this.secretaria = new Secretaria;
+			this.asistente = new Asistente;
 			this.docente = new Docente;
 			this.laboratorio = new Laboratorio;
 				

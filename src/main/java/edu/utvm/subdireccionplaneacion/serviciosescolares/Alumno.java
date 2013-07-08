@@ -1,5 +1,5 @@
-Package edu.utvm.subdireccionplaneacion.serviciosescolares
-import.java.until.*
+package edu.utvm.subdireccionplaneacion.serviciosescolares;
+import edu.utvm.general.Persona;
 
 public class Alumno{
 

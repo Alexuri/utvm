@@ -1,14 +1,15 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-import edu.utvm.departamentofinanza.departamentopersonal;
+import edu.utvm.departamentofinanza.departamentopersonal.Jefearea;
+import edu.utvm.subdireccionplaneacion.practicasestadias.*;
 
 public class PracticasEstadias{
 
-  public ProcedimientoEstadia procedimientoEstadia;
+  	public ProcesoEstadia procesoEstadia;
 	public VisitaIndustrial visitaIndustrial;
 	public JefeArea jefeArea;
 
-	public ProcedimientoEstadia(ProcedimientoEstadia procedimientoEstadia,VisitaIndustrial visitaIndustrial,JefeArea jefeArea){
-		ProcedimientoEstadia procedimientoEstadia = new ProcedimientoEstadia();
+	public PracticasEstadias(ProcesoEstadia procesoEstadia,VisitaIndustrial visitaIndustrial,JefeArea jefeArea){
+		ProcesoEstadia procesoEstadia = new ProcesoEstadia();
 		VisitaIndustrial visitaIndustrial = new VisitaIndustrial();
 		JefeArea jefeArea = new JefeArea();
 	}

@@ -1,4 +1,6 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
+import edu.utvm.subdireccionplaneacion.practicasestadias.*;
+import edu.utvm.subdireccionplaneacion.sericiosescolares.Alumno;
 
 public class ProcesoEstadia{
 

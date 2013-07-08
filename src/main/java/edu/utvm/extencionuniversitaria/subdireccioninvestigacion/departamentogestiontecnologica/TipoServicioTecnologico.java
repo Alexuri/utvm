@@ -11,8 +11,12 @@ public class TipoServicioTecnologico {
 	public String fichaRegistro;
 
 	public List /*<ServicioTecnologico>*/ servicioTecnologico;
-	public void TipoServicio(){
-		
+
+	public TipoServicioTecnologico(String it,String calen, String soli,String ficha){
+		this.ite= it;
+		this.calendario= calen;
+		this.soliciud= soli;
+		this.fichaRegistro = ficha;
 	}
 	
 		public String getIte() {
@@ -55,7 +59,6 @@ public class TipoServicioTecnologico {
 		this.servicioTecnologico = servicioTecnologico;
 	}
  
-
  
 	public class ArrayList{
 	 

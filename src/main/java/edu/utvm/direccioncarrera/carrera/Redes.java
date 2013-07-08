@@ -1,5 +1,5 @@
 package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+import edu.utvm.departamentofinanza.JefeArea;
 
 public class Redes (){
 
@@ -7,7 +7,7 @@ public class Redes (){
 
 		public Redes(){
 		
-			super.jefeArea = new JefeArea;
+			this.jefeArea = new JefeArea;
 		}
 		
 
