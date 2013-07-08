@@ -1,17 +1,16 @@
-package edu.utvm.direccioncarrera.departamento
+package edu.utvm.direccioncarrera.carrera;
 
-
-public class Departamento(){
-
-  public Redes redes;
-	public Sistemas sistemas; 
-	public SoporteTecnico soporteTecnico;
 	
-		public Departamento(){
+	public class Departamento{
+		public Redes redes;
+		public Sistemas sistemas; 
+		public Soporte soporte;
 		
-			redes = new Redes;
-			sistemas = new sistemas;
-			soporteTecnico = new SoporteTecnico;
-		}
-
-}
+			public Departamento(){
+			
+				redes = new Redes();
+				sistemas = new Sistemas();
+				soporte = new Soporte();
+			}
+					
+	}
