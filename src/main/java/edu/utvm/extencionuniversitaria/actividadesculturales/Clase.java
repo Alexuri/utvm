@@ -1,15 +1,13 @@
 package edu.utvm.extencionuniversitaria.actividadesculturales;
 
-import java.util.ArrayList;
-  
-	public class Clase{
-		public Date dia;
-		public DateTime hora;
-		public String lugar;
+import java.util.Date;
 
-		public List <Alumno> alumno;//---->ArrayList
+public class Clase {
+	public Date dia;
+	public String hora;
+	public String lugar;
 
-		public Clase(){
-		this.alumno = new ArrayList <Alumno>();
-		}
+	public Clase() {
+
 	}
+}

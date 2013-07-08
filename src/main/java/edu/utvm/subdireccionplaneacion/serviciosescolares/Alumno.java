@@ -1,5 +1,5 @@
 package edu.utvm.subdireccionplaneacion.serviciosescolares;
-import edu.utvm.general.Persona;
+import edu.utvm.general.Persona.*;
 
 public class Alumno{
 

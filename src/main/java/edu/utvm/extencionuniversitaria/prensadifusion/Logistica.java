@@ -5,7 +5,7 @@ package edu.utvm.extencionuniversitaria.prensadifusion;
 	public int cantidad;
 	
 	public Logistica(String tipmat, int cant){
-		this.tipoCantidad = tipmat;
+		this.tipoMaterial = tipmat;
 		this.cantidad = cant;		
 	}
 }
