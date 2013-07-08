@@ -1,27 +1,29 @@
 package edu.utvm.rectoria;
 
 import java.util.*;
+
 //llamando clases
+
 import edu.utvm.departamentofinanza.departamentopersonal.Rector;
 import edu.utvm.departamentofinanza.departamentorecursos.Departamento;
 import edu.utvm.direccioncarrera.DireccionCarrera;
-
 
 public class Rectoria {
 
 	private Rector rector;
 	private DireccionCarrera direccionCarrera;
-	private ExtencionUniversitaria extencionniversitaria;
-	private SubdireccionPlaneacion subdireccionplaneacion;
-        private DepartamentoFinanza departamentofinanza;	
 
 	public Rectoria(Rector rector) {
-		this.rector = new Rector("nom", "apPat", "apMat", null, "rfc", "curp","direc", "correo", "tel", "claveEmpleado", "cedulaProfesional");
+		this.rector = new Rector("nom", "apPat", "apMat", null, "rfc", "curp",
+				"direc", "correo", "tel", "claveEmpleado", "cedulaProfesional");
 
 	}
 
+	public Rectoria(DireccionCarrera direccionCarrera) {
+		this.direccionCarrera = new DireccionCarrera();
 
-	
+	}
+		
 		
 	public String toString() {
 		// TODO Auto-generated method stub
