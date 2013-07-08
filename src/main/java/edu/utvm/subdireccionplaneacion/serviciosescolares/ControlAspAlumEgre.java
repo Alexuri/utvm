@@ -1,5 +1,5 @@
 package edu.utvm.subdireccionplaneacion.serviciosescolares;
-import edu.utvm.subdireccionplaneacion.serviciosescolares;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
 
 public class ControlAspAlumEgre{
 
