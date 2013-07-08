@@ -7,8 +7,8 @@ public class DepartamentoMantenimiento{
 	public PersonalLimpieza personalLimpieza;
 	public PersonalSeguridad personalSeguridad;
 	
-	public DepartamentoMantenimiento(JefeDepartamento jefeDepartamento, Asistente asistente, PersonalLimpieza personalLimpieza, PersonalSeguridad personalSeguridad){
-		this.jefeDepartamento=new JefeDepartamento();		
+	public DepartamentoMantenimiento(JefeArea jefeArea, Asistente asistente, PersonalLimpieza personalLimpieza, PersonalSeguridad personalSeguridad){
+		this.jefeArea=new JefeArea();		
 		this.asistente=new Asistente();
 		this.personalLimpieza=new PersonalLimpieza();
 		this.personalSeguridad=new PersonalSeguridad();
