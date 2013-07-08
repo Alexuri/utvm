@@ -3,7 +3,7 @@ import  edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 import java.util.*;
 
 public class ProgramacionPresupuesto{
-	public JefeArea jefeDeArea;
+	public JefeArea jefeArea;
     public List<Carpetas>carpetas;
     
     public ProgramacionPresupuesto(){
@@ -11,8 +11,8 @@ public class ProgramacionPresupuesto{
 		
     }
 		
-	public void JefeArea(){
-		JefeArea x = new JefeArea();
+	public  void JefeArea(){
+		JefeArea x = new JefeArea(null, null, null, null, null, null, null, null, null, null,null);
 		x.realizaActividades();
 		System.out.println(x);	
     }
