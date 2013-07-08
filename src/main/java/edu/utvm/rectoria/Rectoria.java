@@ -4,9 +4,6 @@ import java.util.*;
 //llamando clases
 import edu.utvm.departamentofinanza.departamentopersonal.Rector;
 import edu.utvm.departamentofinanza.departamentorecursos.Departamento;
-import edu.utvm.departamentofinanza.DepartamentoFinanza;
-import edu.utvm.subdireccionplaneacion.SubdireccionPlaneacion;
-import edu.utvm.extencionuniversitaria.ExtencionUniversitaria;
 import edu.utvm.direccioncarrera.DireccionCarrera;
 
 
@@ -23,25 +20,7 @@ public class Rectoria {
 
 	}
 
-	public Rectoria(DireccionCarrera direccionCarrera) {
-		this.direccionCarrera = new DireccionCarrera();
 
-	}
-
-	public Rectoria(ExtencionUniversitaria extencionuniversitaria) {
-		this.extencionuniversitaria = new ExtencionUniversitaria();
-
-	}
-
-	public Rectoria(SubdireccionPlaneacion subdireccionplaneacion) {
-		this.extencionuniversitaria = new ExtencionUniversitaria();
-
-	}
-
-	public Rectoria(DepartamentoFinanza departamentofinanza) {
-		this.extencionuniversitaria = new ExtencionUniversitaria();
-
-	}
 	
 		
 	public String toString() {
