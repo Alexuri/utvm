@@ -10,7 +10,7 @@ public class Aspirante{
 	public Persona persona;
 	
 
-	public Aspirante(){
+	public Aspirante(String folio, String bachillerato, Double promedio, String programaEducativoAspirante, Persona persona){
 		
 		Persona persona = new Persona();
 	}
