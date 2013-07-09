@@ -1,11 +1,7 @@
-package edu.utvm.direccioncarrera;
-import edu.utvm.*;
+package edu.utvm.direccioncarrera.carrera;
 
+public class Tic {
 
-public class Tic(){
-
-  public int totalAulas;
-	public
-
+	public int totalAulas;
 
 }

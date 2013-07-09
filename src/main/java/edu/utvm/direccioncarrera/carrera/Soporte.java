@@ -1,13 +1,14 @@
-package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+package edu.utvm.direccioncarrera.carrera;
 
-public class SoporteTecnico(){
-  
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
+
+public class Soporte {
+
 	public JefeArea jefeArea;
 
-		public SoporteTecnico(){
-		
-			super.jefeArea = new JefeArea;
-		}
+	public Soporte() {
+
+		this.jefeArea = new JefeArea(null, null, null, null, null, null, null,
+				null, null, null, null);
 	}
 }

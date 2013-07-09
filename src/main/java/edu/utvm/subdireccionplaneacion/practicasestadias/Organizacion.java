@@ -1,5 +1,5 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-
+import edu.utvm.subdireccionplaneacion.practicasestadias.CartaTerminacion;
 
 public class Organizacion{
 
@@ -12,7 +12,7 @@ public class Organizacion{
 
 	public Organizacion(CartaTerminacion cartaterminacion){
 
-		CartaTerminacion cartaterminacion = new CartaTerminacion();
+		CartaTerminacion cartater = new CartaTerminacion();
 	}
 
 	public void GeneraCarta(){

@@ -1,23 +1,24 @@
-package edu.utvm;
+package edu.utvm.subdireccionplaneacion.programacionpresupuesto;
 import java.util.*;
-class Carpetas{
+
+public class Carpetas{
 	
-	public TipoDocumento tipodocumento;
+	public TipoDocumento tipoDocumento;
 	public String nombre;
 	public Date fecha;
-	public Manuales manuales;
-	public Procedimientos proceimientos;
-	public Presupuestos presupuestos;
 	public List<Manuales>manuales;
-		Manuales = new ArrayList<manuales>();
 	public List<Procedimientos>procedimientos;
-		Procedimientos = new ArrayList<procedimientos>();
 	public List<Presupuestos>presupuestos;
-		Presupuestos = new ArrayList<presupuestos>();
 	
 	public Carpetas(int folio, String nombre, String fechaElaboracion, String Clasificacion){
-		this.tipodocumento=new TipoDocumento();
-	  }
-	  
+		
+		manuales = new ArrayList<Manuales>();
+		procedimientos = new ArrayList<Procedimientos>();		
+		presupuestos = new ArrayList<Presupuestos>();
+		
+		this.tipoDocumento=new TipoDocumento();
+		
+		
+	}	  
 	 
 }

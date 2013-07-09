@@ -1,16 +1,20 @@
 package edu.utvm.departamentofinanza.departamentocontabilidad;
-import package edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
-
+import edu.utvm.departamentofinanza.departamentocontabilidad.ReciboPago;
 public class Caja {
-  public ReciboPago reciboPago;
+	
+	public ReciboPago reciboPago;
+	
 	public Float dinero;
-	public Alumno alumno; 
-
-	public caja  (){
-		this.reciboPago = new ReciboPago();
+	
+	public String alumno; 
+	
+	public Caja (ReciboPago reciboPago, Float dinero, String alumno){
+		this.reciboPago = reciboPago;
+		this.dinero = dinero;
+		this.alumno = alumno;
 	}
-
-	public alumno(String){
+	
+	public void reciboDinero(){
 		
 	}
 }

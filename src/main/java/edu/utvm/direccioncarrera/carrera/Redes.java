@@ -1,17 +1,15 @@
-package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+package edu.utvm.direccioncarrera.carrera;
 
-public class Redes (){
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
-  public JefeArea jefeArea;
+public class Redes {
 
-		public Redes(){
-		
-			super.jefeArea = new JefeArea;
-		}
-		
+	public JefeArea jefeArea;
 
+	public Redes() {
 
+		this.jefeArea = new JefeArea("Alan", "Trejo", "Martinez", null, null,
+				null, null, null, null, null, null);
 	}
 
 }

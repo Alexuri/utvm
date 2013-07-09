@@ -1,16 +1,21 @@
 package edu.utvm.departamentofinanza.departamentocontabilidad;
-import package edu.utvm.departamentofinanza.departamentopersonal.Asistente;
-import package edu.utvm.departamentofinanza.departamentopersonal.Jefearea;
+import  edu.utvm.departamentofinanza.departamentopersonal.*;
 
 public class DepartamentoContabilidad{
-  public JefeArea jefeArea;
+	
+	public JefeArea jefeArea;
+	
 	public Asistente asistente;
+	
 	public Caja caja;
 
-	public DepartamentoContabilidad(){
-		this.caja = new Caja();
-		this.Asistente = new asistente();
-		this.JefeArea = new jefeArea();
+	public DepartamentoContabilidad(JefeArea jefeArea,Asistente asistente,Caja caja){
+		this.caja = new Caja(null,null,null);
+		this.asistente =new Asistente(null,null,null,null,null,null,null,null,null,null,null);
+		this.jefeArea = new JefeArea(null,null,null,null,null,null,null,null,null,null,null);
 	}
-        
+	
+	public void RealizaControlPago(){
+	
+	}
 }

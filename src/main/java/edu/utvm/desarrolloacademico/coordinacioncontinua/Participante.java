@@ -1,7 +1,7 @@
-package edu.utvm.DireccionEducacionContinua;
-import edu.utvm.departamentofinanza.departamentopersonal;
+package edu.utvm.desarrolloacademico.coordinacioncontinua;
 
-public class Participante {
+
+public class Participante{
 
 	private String escolaridad;
 	private String tipoParticipante;

@@ -1,16 +1,16 @@
-package edu.utvm.direccioncarrera.departamento;
-import edu.utvm.*;
+package edu.utvm.direccioncarrera.carrera;
 
-public class Sistemas(){
-  
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
+
+public class Sistemas {
+
 	public JefeArea jefeArea;
 
-		public Sistemas(){
-		
-			super.jefeArea = new JefeArea;
-		}
-		
+	public Sistemas() {
 
-
+		this.jefeArea = new JefeArea("Jesus", "Hernandez", "Gonzalez", null,
+				null, null, "Ixmiquilpan", "jesus@utvm.edu.mx", "7754159861",
+				null, null);
 	}
+
 }

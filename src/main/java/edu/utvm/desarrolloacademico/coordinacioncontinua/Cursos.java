@@ -1,6 +1,6 @@
-package edu.utvm.DireccionEducacionContinua;
-import edu.utvm.persona;
-import edu.utvm.departamentofinanza.departamentopersonal;
+package edu.utvm.desarrolloacademico.coordinacioncontinua;
+import edu.utvm.departamentofinanza.departamentopersonal.Docente;
+import edu.utvm.general.Persona;
 
 
 public class Cursos{
@@ -11,8 +11,8 @@ public class Cursos{
 	private Docente docente;
 	
 	public Cursos(Participante participante, Docente docente,int numeroCurso, int duracion,String programaEducativo){
-		this.participante = new Participante();
-		this.docente = new Docente();
+		this.participante = new Participante(programaEducativo, programaEducativo);
+		this.docente = new Docente(programaEducativo, programaEducativo, programaEducativo, null, programaEducativo, programaEducativo, programaEducativo, programaEducativo, programaEducativo, programaEducativo);
 		
 		
 		this.setduracion(duracion);

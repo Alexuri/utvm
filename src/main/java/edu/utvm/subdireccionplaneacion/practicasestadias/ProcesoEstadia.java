@@ -1,8 +1,11 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.FichaRegistro;
+
 
 public class ProcesoEstadia{
 
-  public Alumno alumo;
+  public Alumno alumno;
 	public FichaRegistro fichaRegistro;
 	public CartaPresentacion cartaPresentacion;
 	public CartaNoAdeudo cartaNoAdeudo;
@@ -10,10 +13,10 @@ public class ProcesoEstadia{
 
 	public ProcesoEstadia(Alumno alumno,FichaRegistro ficheRegistro,CartaPresentacion cartapresentacion,CartaNoAdeudo cartaNoAdeudo){
 
-		Alumno alumno = new Alumno();
-		FichaRegistro ficheRegistro = new FichaRegistro();
-		CartaPresentacion cartapresentacion = new CartaPresentacion();
- 		CartaNoAdeudo cartaNoAdeudo = new CartaNoAdeudo();
+		Alumno alum = new Alumno(null);
+		FichaRegistro ficheReg = new FichaRegistro();
+		CartaPresentacion cartapres = new CartaPresentacion();
+ 		CartaNoAdeudo cartaNoAdeudo1 = new CartaNoAdeudo(null, null);
 	}
 
 

@@ -1,5 +1,5 @@
-package edu.utvm.subdireccionplaneacion.practicasyestadias;
-
+package edu.utvm.subdireccionplaneacion.practicasestadias;
+import edu.utvm.subdireccionplaneacion.practicasestadias.Planeacion;
 
 public class VisitaIndustrial{
 
@@ -11,6 +11,6 @@ public class VisitaIndustrial{
 	public Planeacion planeacion;
 
 	public VisitaIndustrial(Planeacion planeacion){
-		Planeacion planeacion = new Planeacion();
+		Planeacion planeacion1 = new Planeacion();
 	}
 }

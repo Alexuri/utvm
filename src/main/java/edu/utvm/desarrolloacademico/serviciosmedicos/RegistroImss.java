@@ -1,25 +1,25 @@
 package edu.utvm.desarrolloacademico.serviciosmedicos;
 
-publiic class RegistroImss
-{
-  private Alumno alumno;
-	Private Empleado empleado;
+import java.util.Date;
+
+import edu.utvm.departamentofinanza.departamentopersonal.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
+
+public class RegistroImss {
+	private Alumno alumno;
+	private Empleado empleado;
 	String numeroAfiliacion;
-        
-	public RegistroImss(Alumno alumno,String numeroAf)
-	{
-         this.alumno = new Alumno();
-         this.numeroAf=new numeroAfiliacion;();
-		
+
+	public RegistroImss(Alumno alumno, String numeroAfiliacion) {
+		this.alumno = new Alumno(numeroAfiliacion);
+		this.numeroAfiliacion = numeroAfiliacion;
+
 	}
 
-	public RegistroImss(Empleado empleado,String numeroAf)
-	{
-         this.empleado = new Empleado();
-         this.numeroAf=new numeroAfiliacion;();
-		
+	public RegistroImss(Empleado empleado, String numeroAf) {
+		this.empleado = new Empleado(null, null, null, new Date(), null, null,
+				null, null, null, null);
+		this.numeroAfiliacion = numeroAf;
 	}
-
-
 
 }
