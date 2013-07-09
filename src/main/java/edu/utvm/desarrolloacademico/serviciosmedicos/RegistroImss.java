@@ -19,7 +19,7 @@ public class RegistroImss {
 	public RegistroImss(Empleado empleado, String numeroAf) {
 		this.empleado = new Empleado(null, null, null, new Date(), null, null,
 				null, null, null, null);
-		this.numeroAfiliacion = numeroAfiliacion;
+		this.numeroAfiliacion = numeroAf;
 	}
 
 }
