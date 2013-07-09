@@ -1,6 +1,7 @@
 package edu.utvm.desarrolloacademico.serviciosmedicos;
 
 import edu.utvm.departamentofinanza.departamentopersonal.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 import java.util.List;
 import java.util.ArrayList;
 
