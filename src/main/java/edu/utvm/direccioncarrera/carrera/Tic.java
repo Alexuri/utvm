@@ -1,6 +1,6 @@
 package edu.utvm.direccioncarrera.carrera;
 
-public class Tic {
+public class Tic extends Carrera{
 
 	public int totalAulas;
 

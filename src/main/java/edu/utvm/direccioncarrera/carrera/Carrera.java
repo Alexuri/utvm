@@ -3,9 +3,10 @@ package edu.utvm.direccioncarrera.carrera;
 import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 import edu.utvm.departamentofinanza.departamentopersonal.Asistente;
 import edu.utvm.departamentofinanza.departamentopersonal.Docente;
+import edu.utvm.direccioncarrera.DireccionCarrera;
 import edu.utvm.direccioncarrera.Laboratorio;
 
-public class Carrera {
+public class Carrera extends DireccionCarrera{
 
 	public String planEstudio;
 	public String horario;
