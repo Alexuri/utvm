@@ -9,9 +9,34 @@ public class CoordinacionIdioma {
 	private List<Docente> docente;
 	private List<Asistente> asistente;
 
-	public CoordinacionIdioma(JefeArea jefe,Docente docente, Asistente asistente ) {
-		this.jefe = new JefeArea(null, null, null, null, null, null, null, null, null, null, null);
-		this.docente = new ArrayList<Docente>();
-		this.asistente= new ArrayList<Asistente>();
+	public CoordinacionIdioma() {
+		setJefe(new JefeArea(null, null, null, null, null, null, null, null, null, null, null));
+		setDocente(new ArrayList<Docente>());
+		setAsistente(new ArrayList<Asistente>());
+	}
+
+	public JefeArea getJefe() {
+		return jefe;
+	}
+
+	public void setJefe(JefeArea jefe) {
+		this.jefe = jefe;
+	}
+
+	public List<Docente> getDocente() {
+		return docente;
+	}
+
+	public void setDocente(List<Docente> docente) {
+		this.docente = docente;
+	}
+
+	public List<Asistente> getAsistente() {
+		return asistente;
+	}
+
+	public void setAsistente(List<Asistente> asistente) {
+		this.asistente = asistente;
 	}
 }
+
