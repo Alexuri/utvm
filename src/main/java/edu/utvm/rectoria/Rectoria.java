@@ -27,7 +27,7 @@ public class Rectoria {
 		
 	public String toString() {
 		// TODO Auto-generated method stub
-		return String.format("Rectoria cuenta con %s y %s", rector);
+		return String.format("Rectoria cuenta con %s", rector);
 	}
 
 	//metodos de rectoria
