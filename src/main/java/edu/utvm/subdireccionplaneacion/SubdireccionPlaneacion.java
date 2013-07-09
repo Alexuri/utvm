@@ -5,7 +5,7 @@ import edu.utvm.subdireccionplaneacion.programacionpresupuesto.ServiciosEscolare
 import edu.utvm.subdireccionplaneacion.programacionpresupuesto.PracticasEstadias;
 
 class SubdireccionPlaneacion{
-  public ProgramacionPresuspuesto programacionpresuspuesto;
+  	public ProgramacionPresuspuesto programacionpresuspuesto;
 	public ServiciosEscolares serviciosescolares;
 	public PracticasEstadias practicasestadias;
 	public JefeArea jefearea;
