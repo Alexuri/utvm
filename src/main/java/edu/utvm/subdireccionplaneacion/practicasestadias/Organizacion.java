@@ -12,7 +12,7 @@ public class Organizacion{
 
 	public Organizacion(CartaTerminacion cartaterminacion){
 
-		CartaTerminacion cartaterminacion = new CartaTerminacion();
+		CartaTerminacion cartater = new CartaTerminacion();
 	}
 
 	public void GeneraCarta(){

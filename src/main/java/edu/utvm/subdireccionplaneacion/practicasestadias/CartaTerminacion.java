@@ -1,5 +1,6 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
 import edu.utvm.subdireccionplaneacion.practicasestadias.Organizacion;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno.*;
 
 public class CartaTerminacion{
@@ -8,10 +9,10 @@ public class CartaTerminacion{
 	public Alumno alumno;
 	public Organizacion organizacion;
 
-	public CartaTerminazion(){
+	public void CartaTerminazion(){
 		
-		Alumno alumno = new Alumno();
-		Organizacion organizacion = new Organizacion();
+		Alumno alumno = new Alumno(null);
+		Organizacion organizacion = new Organizacion(null);
 	}
 
 }

@@ -1,6 +1,6 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-import edu.utvm.departamentofinanza.departamentopersonal.Jefearea;
-import edu.utvm.subdireccionplaneacion.practicasestadias.*;
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
+
 
 public class PracticasEstadias{
 
@@ -9,14 +9,14 @@ public class PracticasEstadias{
 	public JefeArea jefeArea;
 
 	public PracticasEstadias(ProcesoEstadia procesoEstadia,VisitaIndustrial visitaIndustrial,JefeArea jefeArea){
-		ProcesoEstadia procesoEstadia = new ProcesoEstadia();
-		VisitaIndustrial visitaIndustrial = new VisitaIndustrial();
-		JefeArea jefeArea = new JefeArea();
+		ProcesoEstadia procesoEs = new ProcesoEstadia (null, null, null, null);
+		VisitaIndustrial visitaIndus = new VisitaIndustrial(null);
+		JefeArea jefeAr = new JefeArea(null, null, null, null, null, null, null, null, null, null, null);
 	}
 
 	
 	
-	public void GeneraCarta(){
+	public void GeneraCarta(){ 
 
 	}
 

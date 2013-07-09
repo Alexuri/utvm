@@ -1,6 +1,7 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno;
 import edu.utvm.subdireccionplaneacion.serviciosescolares.Alumno.*;
-import edu.utvm.direccioncarrera.Carrera.*;
+import edu.utvm.direccioncarrera.carrera.Carrera;
 
 public class CartaNoAdeudo{
 
@@ -9,8 +10,8 @@ public class CartaNoAdeudo{
 
 	public CartaNoAdeudo(Alumno alumno, Carrera carrera){
 		
-		Alumno alumno = new Alumno();
-		Carrera carrera = new Carrera();
+		Alumno alum = new Alumno(null);
+		Carrera carre = new Carrera();
 	}
 
 }

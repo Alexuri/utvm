@@ -1,4 +1,5 @@
 package edu.utvm.subdireccionplaneacion.serviciosescolares;
+import edu.utvm.general.Persona;
 import edu.utvm.general.Persona.*;
 
 public class Alumno{
@@ -8,7 +9,7 @@ public class Alumno{
 
 	public Alumno(String matricula){
 		
-		Persona persona = new Persona();
+		Persona persona = new Persona(null, null, null, null, matricula, matricula, matricula, matricula, matricula);
 	}
 
 	public void otorgaDoc(){

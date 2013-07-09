@@ -1,5 +1,6 @@
 package edu.utvm.subdireccionplaneacion.practicasestadias;
-import edu.utvm.direccioncarrera.Carrera;
+
+import edu.utvm.direccioncarrera.carrera.Carrera;
 
 public class Planeacion{
 
@@ -9,7 +10,7 @@ public class Planeacion{
 	public int asistentes;
 	public String tutorAsignado;
 	
-	public Planeacion{
+	public Planeacion (){
 		Carrera carrera = new Carrera();
 	}
 }

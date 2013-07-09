@@ -11,6 +11,6 @@ public class VisitaIndustrial{
 	public Planeacion planeacion;
 
 	public VisitaIndustrial(Planeacion planeacion){
-		Planeacion planeacion = new Planeacion();
+		Planeacion planeacion1 = new Planeacion();
 	}
 }

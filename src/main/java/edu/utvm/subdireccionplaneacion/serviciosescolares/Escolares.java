@@ -1,5 +1,7 @@
 package edu.utvm.subdireccionplaneacion.serviciosescolares;
-import edu.utvm.departamentofinanza.departamentopersonal;
+
+import edu.utvm.departamentofinanza.departamentopersonal.Administrativo;
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
 
 public class Escolares{
@@ -10,9 +12,9 @@ public class Escolares{
 	
 	public Escolares ( ControlAspAlumEgre controlAspAlumEgre,Administrativo administrativo, JefeArea jefeArea){
 
-		ControlAspAlumEgre controlAspAlumEgre = new ControlAspAlumEgre();
-		Administrativo administrativo = new Administrativo();
-		JefeArea jefeArea = new JefeArea ();
+		ControlAspAlumEgre controlAl = new ControlAspAlumEgre();
+		Administrativo admin = new Administrativo(null, null, null, null, null, null, null, null, null, null, null);
+		JefeArea jefeAre = new JefeArea (null, null, null, null, null, null, null, null, null, null, null);
 
 
 	}

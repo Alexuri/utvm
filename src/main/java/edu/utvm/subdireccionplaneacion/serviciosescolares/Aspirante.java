@@ -12,7 +12,7 @@ public class Aspirante{
 
 	public Aspirante(String folio, String bachillerato, Double promedio, String programaEducativoAspirante, Persona persona){
 		
-		Persona persona = new Persona();
+		Persona person = new Persona(programaEducativoAspirante, programaEducativoAspirante, programaEducativoAspirante, null, programaEducativoAspirante, programaEducativoAspirante, programaEducativoAspirante, programaEducativoAspirante, programaEducativoAspirante);
 	}
 
 	public void SolicitarInfo(){

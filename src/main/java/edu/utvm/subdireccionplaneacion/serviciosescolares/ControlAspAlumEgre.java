@@ -1,5 +1,4 @@
 package edu.utvm.subdireccionplaneacion.serviciosescolares;
-import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
 
 public class ControlAspAlumEgre{
 
@@ -9,8 +8,8 @@ public class ControlAspAlumEgre{
 
 	public ControlAspAlumEgre(){
 		
-		Alumno alumno = new Alumno();
-		Aspirante aspirante = new Aspirante();
+		Alumno alumno = new Alumno(null);
+		Aspirante aspirante = new Aspirante(null, null, null, null, null);
 		Egresado egresado = new Egresado();
 	}
 }
