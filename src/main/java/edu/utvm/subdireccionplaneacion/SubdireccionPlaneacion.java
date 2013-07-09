@@ -1,13 +1,14 @@
 package edu.utvm.subdireccionplaneacion;
-import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
-import edu.utvm.subdireccionplaneacion.programacionpresupuesto.PracticasEstadias;
-import edu.utvm.subdireccionplaneacion.programacionpresupuesto.ServiciosEscolares;
-import edu.utvm.subdireccionplaneacion.programacionpresupuesto.PracticasEstadias;
 
-class SubdireccionPlaneacion{
-  	public ProgramacionPresuspuesto programacionpresuspuesto;
-	public ServiciosEscolares serviciosescolares;
+import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
+import edu.utvm.subdireccionplaneacion.programacionpresupuesto.*;
+import edu.utvm.subdireccionplaneacion.practicasestadias.*;
+import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
+
+class SubdireccionPlaneacion {
+	public ProgramacionPresupuesto programacionpresupuesto;
+	public Escolares serviciosescolares;
 	public PracticasEstadias practicasestadias;
 	public JefeArea jefearea;
-	
+
 }
