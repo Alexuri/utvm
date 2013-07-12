@@ -2,7 +2,7 @@ package edu.utvm.extencionuniversitaria.bolsatrabajo;
 
 import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
-public class BolsaTrabajo {
+public class BolsaTrabajo implements Contacta{
 	public JefeArea JefeArea;
 
 	public SeguimientoEgresados seguimientoEgresados;
