@@ -3,15 +3,24 @@ import edu.utvm.departamentofinanza.departamentopersonal.JefeArea;
 
 public class DepartamentoGestionTecnologica {
 
-
 	public Consulta consulta;
 	public Planeacion planeacion;
 	public Orientacion orientacion;
 	public ServicioTecnologico servicioTecnologico;
 	public JefeArea jefearea;
 
+	public void promoverConocimiento() {
+	}
+
+	public interface Consulta {
+		void resolverDudas();
+	}
+
+	public interface Orientacion {
+		void resolverDudas();
+	}
+
 	
-		public void promoverConocimiento(){  
-		}
+
 }
 

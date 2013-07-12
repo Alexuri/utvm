@@ -3,7 +3,7 @@ package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentoge
 import edu.utvm.departamentofinanza.departamentopersonal.*;
 import edu.utvm.subdireccionplaneacion.serviciosescolares.*;
 
-public class Orientacion {
+public class Orientacion implements Dudas{
 
 	public Alumno alumno;
 	public Docente docente;

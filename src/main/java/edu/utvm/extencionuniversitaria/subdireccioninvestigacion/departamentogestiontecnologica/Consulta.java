@@ -2,7 +2,7 @@ package edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentoge
 
 import java.util.*;
 
-public class Consulta {
+public class Consulta implements Dudas{
 
 	public String nombreConsulta;
 	public String descripcion;
