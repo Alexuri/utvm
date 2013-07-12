@@ -1,6 +1,6 @@
 package edu.utvm.extencionuniversitaria.incubatec;
 
-public class Empresa {
+public class Empresa implements Desarrolla{
 	public String nombre;
 	public String direccion;
 	public int telefono;
@@ -19,6 +19,8 @@ public class Empresa {
 	public void desrrollarempresa() {
 	}
 
-	public void desarrollarproyecto() {
+	public void desarrollaProyecto() {
 	}
+
+
 }

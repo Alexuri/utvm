@@ -2,7 +2,7 @@ package edu.utvm.extencionuniversitaria.incubatec;
 
 import edu.utvm.general.*;
 
-public class Emprendedor {
+public class Emprendedor implements Crea, Desarrolla{
 	public Persona persona;
 	public Empresa empresa;
 
@@ -11,9 +11,14 @@ public class Emprendedor {
 		this.empresa = new Empresa();
 	}
 
-	public void desarrollaproyecto() {
+	public void desarrollaProyecto() {
 	}
 
-	public void creaempresa() {
+	public void creaEmpresa() {
 	}
+
+	
+	
 }
+
+	

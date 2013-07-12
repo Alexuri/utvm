@@ -3,7 +3,7 @@ package edu.utvm.extencionuniversitaria.incubatec;
 import edu.utvm.departamentofinanza.departamentopersonal.*;
 import edu.utvm.extencionuniversitaria.subdireccioninvestigacion.departamentogestiontecnologica.*;
 
-public class IncubatecUtvm {
+public class IncubatecUtvm implements Crea {
 
 	public Asesorias asesorias;
 	public Apoyo apoyo;
@@ -27,7 +27,11 @@ public class IncubatecUtvm {
 	}
 
 	public void creaEmpresa() {
-
 	}
 
+	
+
 }
+
+
+
