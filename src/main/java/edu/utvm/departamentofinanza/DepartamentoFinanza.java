@@ -9,7 +9,7 @@ public class DepartamentoFinanza {
 	}
 
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub
  System.out.println("Construyendo la clase Departamento Finanzas");
  System.out.println("Construyendo la clase Departamento Contabilidad");
@@ -19,6 +19,6 @@ public class DepartamentoFinanza {
 	
 		
 		
-	}
+	}*/
 
 }

@@ -19,7 +19,7 @@ public class DepartamentoPersonal{
 		this.jefeDepartamentoPersonal = new JefeArea(null, null, null, null, null, null, null, null, null, null, null);
 	}
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		// TODO Auto-generated method stub	
 		System.out.println("Construyendo la clase Administrativo");
 		System.out.println("Construyendo la clase Asistente");
@@ -37,7 +37,7 @@ public class DepartamentoPersonal{
 		System.out.println("Construyendo la clase Rector");
 		System.out.println("Construyendo la clase Responsable de Laboratorio");
 		
-	}
+	}*/
 
 }
 

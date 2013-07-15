@@ -32,7 +32,7 @@ public class Universidad {
 	}
 
 	public static void main(String[] args) {
-		Universidad universidad = new Universidad(null, null, null, null, null, null);
+		//Universidad universidad = new Universidad(null, null, null, null, null, null);
 		
 	
 		
